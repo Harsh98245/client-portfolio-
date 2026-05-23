@@ -73,10 +73,10 @@ export default function Hero() {
                 className="text-xs text-primary/70 sm:text-sm md:text-base"
                 style={{ lineHeight: 1.2 }}
               >
-                Chirag is a communications &amp; media studies graduate and digital
-                marketer — turning cultural insight into campaigns that perform
-                across multicultural, multilingual markets, bound not by labels but
-                by curiosity and craft.
+                I’m a communications &amp; media studies graduate and digital
+                marketer. I turn cultural insight into campaigns that perform
+                across multicultural, multilingual markets — bound not by labels
+                but by curiosity and craft.
               </motion.p>
 
               <motion.a

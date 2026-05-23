@@ -19,7 +19,7 @@ export const roles: Role[] = [
     period: "Jan 2026 – Present",
     location: "Toronto, ON",
     highlight:
-      "$40K+ in revenue with a 30% upsell rate, using consultative selling and brand storytelling for tailored customer experiences.",
+      "I generated $40K+ in revenue at a 30% upsell rate, using consultative selling and brand storytelling to give customers tailored, personal experiences.",
   },
   {
     company: "York University — Dept. of Communication & Media Studies",
@@ -27,7 +27,7 @@ export const roles: Role[] = [
     period: "May 2024 – Apr 2026",
     location: "North York, ON",
     highlight:
-      "Multi-method media analysis across 200+ sources; built archive and podcast metadata systems that improved discoverability.",
+      "I ran multi-method media analysis across 200+ sources and built archive and podcast metadata systems that made content far easier to find.",
   },
   {
     company: "York University — IEP Bridging Program",
@@ -35,7 +35,7 @@ export const roles: Role[] = [
     period: "Oct 2023 – Apr 2024",
     location: "North York, ON",
     highlight:
-      "Designed cross-channel campaigns that lifted engagement 40%, with A/B testing to refine messaging and conversion.",
+      "I designed cross-channel campaigns that lifted engagement 40%, and used A/B testing to sharpen messaging and conversion.",
   },
   {
     company: "Mexico Business Events",
@@ -43,7 +43,7 @@ export const roles: Role[] = [
     period: "May 2023 – Sep 2023",
     location: "Mexico City, MX",
     highlight:
-      "Ran bilingual (ES/EN) C-suite conference logistics, speaker vetting, and curated programming on-site.",
+      "I ran bilingual (ES/EN) logistics for C-suite conferences — vetting speakers and curating programming on-site.",
   },
 ];
 
