@@ -1,27 +1,46 @@
-# Chirag — Portfolio
+# Chirag — Marketing Professional Portfolio
 
-A dark, moody, cinematic one-page portfolio built with **React + Vite + TypeScript + Tailwind CSS**, animated with **framer-motion** and iconed with **lucide-react**.
+A personal portfolio website for **Chirag**, a marketing professional specializing in
+campaign strategy, media planning, and brand storytelling. Chirag is a Communications &
+Media Studies graduate (York University, Dean's Honour Roll), Google-certified in Ads,
+Analytics, and DV360, with experience driving measurable results across multicultural,
+multilingual markets.
 
-## Sections
+This site presents his work as a single-page, cinematic experience — dark, moody, and
+animated — built to make his strategy and campaign thinking stand out.
 
-1. **Hero** — full-screen background video, noise + gradient overlays, navbar pill, and a giant animated name.
-2. **About** — multi-style pull-up headline + scroll-linked character-reveal bio.
-3. **Work** — three real campaign case studies (Nike, Apple, Samyang) shown as Insight → Idea → Impact.
-4. **Experience** — timeline of roles + a skills / certifications / languages strip.
-5. **Contact** — email CTA and résumé download.
+> Designed and built by **Harsh** ([@Harsh98245](https://github.com/Harsh98245)).
 
-## Local development
+## What's inside
+
+| Section | Highlights |
+|---|---|
+| **Hero** | Full-screen background video with an animated name treatment. |
+| **About** | Scroll-linked text reveal introducing Chirag and his focus. |
+| **Work** | Three campaign case studies (Nike, Apple, Samyang) framed as Insight → Idea → Impact. |
+| **Experience** | Timeline of roles across Canada and Mexico + a skills, certifications & languages strip. |
+| **Contact** | Direct email CTA and résumé download. |
+
+## Tech stack
+
+- **Vite + React 18 + TypeScript**
+- **Tailwind CSS 3** — warm cream palette (`primary` = `#DEDBC8`) on black
+- **framer-motion** — pull-up text, fade-ins, scroll-linked opacity, card entrances
+- **lucide-react** — icons
+- **Fonts** — Almarai (global) + Instrument Serif (italic accents)
+
+## Run it locally
 
 ```bash
 npm install
-npm run dev      # start the dev server (http://localhost:5173)
+npm run dev      # dev server at http://localhost:5173
 npm run build    # type-check + production build to /dist
 npm run preview  # preview the production build
 ```
 
-## Add your résumé file
+## Add the résumé file
 
-The "Download résumé" button links to `/Chirag-Resume.pdf`. Drop your PDF into the
+The "Download résumé" button links to `/Chirag-Resume.pdf`. Place the PDF in the
 `public/` folder with that exact name so it is served at the site root:
 
 ```
@@ -30,17 +49,7 @@ public/Chirag-Resume.pdf
 
 ## Deploy to Vercel
 
-1. Push this repo to GitHub.
-2. In Vercel: **New Project → Import** the repo.
-3. Vercel auto-detects Vite. Defaults are correct:
-   - **Build command:** `npm run build`
-   - **Output directory:** `dist`
-4. Click **Deploy**.
-
-## Tech
-
-- Vite + React 18 + TypeScript
-- Tailwind CSS 3 (`primary` = `#DEDBC8`, `font-serif` = Instrument Serif italic)
-- framer-motion (pull-up text, fade-ins, scroll-linked opacity, card entrances)
-- lucide-react (ArrowRight, Check, Timer, Heart, Flame, Mail)
-- Fonts: Almarai (global) + Instrument Serif (italic accents)
+1. Push to GitHub (already done).
+2. In Vercel: **New Project → Import** this repository.
+3. Vercel auto-detects Vite — defaults are correct (build `npm run build`, output `dist`).
+4. **Deploy.** Every push to `main` redeploys automatically.
