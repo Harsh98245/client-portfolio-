@@ -25,7 +25,7 @@ export const projects: Project[] = [
     brand: "Nike",
     title: "2-Minute Start.",
     tagline: "The hardest part is starting.",
-    image: "/projects/nike-2-minute-start.png",
+    image: "/projects/nike-2-minute-start.jpg",
     caption:
       "I built this concept on the 2-minute rule — shrink the first step until starting feels effortless, then let momentum carry the rest of the workout.",
     icon: Timer,
@@ -41,7 +41,7 @@ export const projects: Project[] = [
     brand: "Apple",
     title: "Pride in Every Message.",
     tagline: "Everyday support, made collective.",
-    image: "/projects/apple-pride.png",
+    image: "/projects/apple-pride.jpg",
     caption:
       "I turned a tiny everyday action — sending a Pride emoji — into real donations and a live, global map of support.",
     icon: Heart,
@@ -57,7 +57,7 @@ export const projects: Project[] = [
     brand: "Samyang",
     title: "Buldak Beach Cool.",
     tagline: "Hot flavor, chill vibes.",
-    image: "/projects/samyang-buldak-beach.png",
+    image: "/projects/samyang-buldak-beach.jpg",
     caption:
       "I reimagined Buldak for summer — the same spicy kick with light shirataki noodles, opening a whole new seasonal occasion for the brand.",
     icon: Flame,

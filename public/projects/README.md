@@ -1,12 +1,10 @@
 # Campaign posters
 
-Drop your three campaign images here with these exact names and the Work section
-will display them automatically (until then, a branded title-card fallback shows):
+These three images back the Work section (referenced in `src/data/projects.ts`):
 
-- `nike-2-minute-start.png` — Nike "2-Minute Start"
-- `apple-pride.png` — Apple "Pride in Every Message"
-- `samyang-buldak-beach.png` — Samyang "Buldak Beach Cool"
+- `nike-2-minute-start.jpg` — Nike "2-Minute Start"
+- `apple-pride.jpg` — Apple "Pride in Every Message"
+- `samyang-buldak-beach.jpg` — Samyang "Buldak Beach Cool"
 
-PNG or JPG both work — just keep the filename (and `.png` extension referenced in
-`src/data/projects.ts`) consistent. The images are shown with `object-contain`, so
-the full poster stays visible at any aspect ratio.
+They're shown with `object-contain`, so the full poster stays visible at any aspect
+ratio. To swap one, replace the file (keep the name) or update the path in the data file.
